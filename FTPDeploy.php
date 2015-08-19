@@ -1,9 +1,6 @@
 <?php
 namespace fernandocchaves\ftpdeploy;
 
-/**
-* 
-*/
 class FTPDeploy
 {
 	protected $host;
