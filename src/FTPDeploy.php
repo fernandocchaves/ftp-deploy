@@ -1,5 +1,5 @@
 <?php
-namespace fernandocchaves\ftpdeploy ;
+namespace fernandocchaves\ftpdeploy;
 
 /**
 * 
