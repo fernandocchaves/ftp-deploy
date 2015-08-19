@@ -14,9 +14,9 @@ class FTPDeploy
 	protected $ftp_folder;
 	protected $files = array();
 
-	public function __construct(argument)
+	public function __construct()
 	{
-		# code...
+		echo 'Ola';
 	}
 
 	public function connect(){

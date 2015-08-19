@@ -1,5 +1,5 @@
 {
-	"name":"fernandocchaves/ftpdeploy",
+    "name" : "fernandocchaves/ftpdeploy",
     "description": "FTP deployment system",
     "keywords": ["deployment", "ftp", "automation"],
     "authors":[
@@ -8,18 +8,14 @@
             "email":"fernandocchaves@gmail.com"
         }
     ],
-    "require": {
-        "php": ">=5.3.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "4.*"
-    },
-	"license":"Open Software License (OSL) v 3.0",
-	"homepage":"",
-    "autoload" : {
-        "classmap": ["src/"],
-        "psr-0": {
-            "fernandocchaves\\ftpdeploy\\": "src/"
+    "type": "library",
+
+    "extra": {
+        "phpci": {
+            "pluginNamespace": "fernandocchaves\\ftpdeploy\\",
+            "suppliedPlugins": [
+                {"name": "FTP Deploy", "class": "FTPDeployPHPCI"}
+            ]
         }
     }
 }
