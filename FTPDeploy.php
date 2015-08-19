@@ -16,7 +16,7 @@ class FTPDeploy
 
 	public function __construct()
 	{
-		echo 'Ola';
+		
 	}
 
 	public function connect(){
