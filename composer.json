@@ -9,7 +9,12 @@
         }
     ],
     "type": "library",
-
+    "autoload" : {
+        "classmap": ["src/"],
+        "psr-0": {
+            "samsonphp\\deploy\\": "src/"
+        }
+    },
     "extra": {
         "phpci": {
             "pluginNamespace": "fernandocchaves\\ftpdeploy\\",
